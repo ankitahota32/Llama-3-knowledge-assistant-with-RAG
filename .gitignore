@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# Environment variables (never commit this)
+.env
+
+# Uploaded files
+uploads/
+
+# FAISS vector store files
+vector_store/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
