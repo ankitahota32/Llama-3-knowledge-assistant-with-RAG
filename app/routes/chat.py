@@ -81,7 +81,7 @@ ANSWER:"""
     except httpx.ConnectError:
         raise HTTPException(
             status_code=503,
-            details="Cannot connect to Ollama. Make sure it is running with: ollama serve"
+            detail="Cannot connect to Ollama. Make sure it is running with: ollama serve"
         )
         
     assistant_message = Message(
